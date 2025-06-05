@@ -191,7 +191,6 @@ The bot exposes these endpoints for SIP events:
 ### Logs
 
 - Bot logs are displayed in the console
-- Webhook server logs show Twilio callback details
 - Database operations are logged for debugging
 
 ## Security Considerations
@@ -200,7 +199,6 @@ The bot exposes these endpoints for SIP events:
 - Use HTTPS for webhook URLs in production
 - Implement rate limiting to prevent abuse
 - Regularly backup the database
-- Monitor Twilio usage and costs
 
 ## Legal Compliance
 
@@ -215,8 +213,7 @@ The bot exposes these endpoints for SIP events:
 
 For issues or questions:
 1. Check the troubleshooting section
-2. Review Twilio documentation
-3. Check bot logs for error messages
+2. Check bot logs for error messages
 
 ## License
 
