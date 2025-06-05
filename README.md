@@ -1,6 +1,8 @@
 # Telegram Call Bot with SIP Integration
 
 A Telegram bot that makes automated voice calls using SIP protocol with 2-stage audio scripts and digit collection.
+- **Please leave a star if you want more updates, for assistance/feature requests message @highnotes on discord**
+
 
 ## Features
 
