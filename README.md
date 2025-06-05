@@ -136,21 +136,6 @@ The `/recall` command will:
 - Reset their status to "pending"
 - Start a new campaign with only those contacts
 
-## File Structure
-
-```
-sip-call-bot/
-├── bot.py                 # Main Telegram bot
-├── database.py           # SQLite database operations
-├── sip_service.py        # SIP integration with pjsua2
-├── webhook_server.py     # Flask server for SIP event webhooks
-├── requirements.txt      # Python dependencies
-├── config.env           # Environment variables template
-├── README.md            # This file
-├── audio/               # Directory for uploaded audio files
-└── call_bot.db          # SQLite database (created automatically)
-```
-
 ## Database Schema
 
 The bot uses SQLite with the following tables:
